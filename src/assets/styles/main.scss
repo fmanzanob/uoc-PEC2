@@ -133,7 +133,17 @@ button {
   right: 1em;
   bottom: 1em;
 }
-
+.boton {
+  border: 0;
+  background-color: $accent;
+  color: $main;
+  text-transform: uppercase;
+  font-size: 100%;
+  padding: 1em 2em;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
 // Grid layout for wide display
 @supports (display:grid) {
   @media (min-width: 42em) and (min-height: 27em) {

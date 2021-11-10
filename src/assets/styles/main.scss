@@ -227,6 +227,12 @@ button {
       position: initial;
       padding: 0;
     }
+    .boton {
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+      position: initial;
+      padding: 0;
+    }
   }
 
   @media (min-width: 48em) and (min-height: 27em) {

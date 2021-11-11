@@ -1,12 +1,16 @@
-/*
-@use "sass:color";
+@font-face {
+  font-family: 'Galatia SIL';
+  src: url('https://www.chenhuijing.com/demos/grids-tycho/fonts/galsilb.eot');
+  src: url('https://www.chenhuijing.com/demos/grids-tycho/fonts/galsilb.eot?#iefix') format('embedded-opentype'),
+    url('https://www.chenhuijing.com/demos/grids-tycho/fonts/galsilb.woff2') format('woff2'),
+    url('https://www.chenhuijing.com/demos/grids-tycho/fonts/galsilb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$header-font: 'Galatia SIL', Georgia, serif;
+$body-font: 'Avenir Book', 'Franklin Gothic Medium', Helvetica, Arial, sans-serif;
 
-
-
-$mqMinWidth: 420px;
-*/
+$main: #fff;
+$accent: #fe320f;
+$text: #282828;
